@@ -1,9 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def something():
-    print("here is something")
-
 
 class Plotter:
 
@@ -148,3 +145,6 @@ class Plotter:
                     count_genuine += 1
             result = count_genuine / len(gen_scores)
             self.FRR.append(result)
+
+    def something(self):
+        print("here is something")
